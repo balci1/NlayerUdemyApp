@@ -46,9 +46,7 @@ namespace NLayer.Repository
                     Height = 200,
                     Width = 500,
                     ProductId = 2,
-                }
-                
-                );
+                });
 
             base.OnModelCreating(modelBuilder);
         }
