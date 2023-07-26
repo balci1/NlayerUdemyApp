@@ -20,7 +20,7 @@ namespace NLayer.Repository.Repositories
             _context = context;
             _dbSet = _context.Set<T>();
         }
-
+        -
         Task IGenericRepository<T>.AddAsync(T entity)
         {
             throw new NotImplementedException();
